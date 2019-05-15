@@ -70,7 +70,7 @@ for(i=1; i<5; i++){
             setTimeout(function(){
                 hide("correct");
             }, 1000);
-            if (score >=2){
+            if (score >=10){
               show("winner")
               document.getElementById("winner").innerHTML = "<p>Congrats!</p><p>You won.</p>";
               hide("timeremaining");
